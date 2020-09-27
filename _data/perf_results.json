@@ -1,5 +1,5 @@
 {
-  "lastUpdate": 1601167397619,
+  "lastUpdate": 1601172711928,
   "repoUrl": "https://github.com/skinny121/RustPython",
   "entries": {
     "RustPython Benchmarks": [
@@ -47,6 +47,54 @@
             "name": "bench_rustpy_nbody",
             "value": 304753363,
             "range": "± 11922156",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "benlewisj@gmail.com",
+            "name": "Ben Lewis",
+            "username": "skinny121"
+          },
+          "committer": {
+            "email": "benlewisj@gmail.com",
+            "name": "Ben Lewis",
+            "username": "skinny121"
+          },
+          "distinct": true,
+          "id": "17b247ff2340d37de61d3e227bca31ffbff700e9",
+          "message": "Fix commit message",
+          "timestamp": "2020-09-27T14:56:51+13:00",
+          "tree_id": "a689975a6e25d2375016d28627f93756597ec0f9",
+          "url": "https://github.com/skinny121/RustPython/commit/17b247ff2340d37de61d3e227bca31ffbff700e9"
+        },
+        "date": 1601172711927,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "bench_cpython_mandelbrot",
+            "value": 37588273,
+            "range": "± 2363843",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_cpython_nbody",
+            "value": 6530546,
+            "range": "± 624194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_rustpy_mandelbrot",
+            "value": 968365523,
+            "range": "± 37427688",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "bench_rustpy_nbody",
+            "value": 318521139,
+            "range": "± 22420139",
             "unit": "ns/iter"
           }
         ]
